@@ -1,0 +1,19 @@
+{
+  "name": "jmucak/wp-service-deregister-pack",
+  "description": "Deactivate services for WP",
+  "require": {
+    "php": ">=8.0"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josip Mucak"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jmucak\\wpServiceDeregisterPack\\": "src"
+    }
+  }
+}
